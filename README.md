@@ -6,10 +6,10 @@ Scale-invariant facial landmark processing and geometric measurement microservic
 
 ## Key Features
 
-* **3D Landmark Extraction:** Processes facial mesh landmarks (468+ points) using MediaPipe Face Mesh.
+* **3D Landmark Extraction:** Processes facial mesh landmarks using MediaPipe Face Mesh.
 * **IPD Normalization:** Scales all Euclidean distances relative to Interpupillary Distance (IPD) to guarantee scale invariance regardless of camera distance or sensor resolution.
 * **Production REST API:** Asynchronous FastAPI endpoints with automatic Swagger documentation (`/docs`) and health checks.
-* **Containerized Deployment:** Multi-stage Docker setup with OS-level headless OpenCV dependencies (`libgl1`, `libglib2.0-0`).
+* **Containerized Deployment:** Multi-stage Docker setup with OS-level headless OpenCV dependencies.
 * **Automated Testing:** Integration and unit test suite powered by `pytest` and `httpx`.
 
 ---
