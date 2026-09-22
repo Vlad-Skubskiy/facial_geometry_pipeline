@@ -1,0 +1,9 @@
+name: facial_geometry
+services:
+  facial-api:
+    build: .
+    image: facial-geometry-api
+    container_name: facial-geometry-service
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
